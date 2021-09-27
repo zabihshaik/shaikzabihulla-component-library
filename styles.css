@@ -8,6 +8,10 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+hr {
+    margin: 2rem 0rem;
+}
+
 /** Container **/
 .container {
     padding: 0rem 1rem;
@@ -36,3 +40,14 @@ body {
     border-radius: 0.5rem;
 }
 
+/** lists **/
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+
+}
