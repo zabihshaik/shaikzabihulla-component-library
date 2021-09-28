@@ -2,6 +2,7 @@
 
 :root {
     --primary-color: #34D399;
+    --off-white: #F3F4F6;
     --dark-gray: #6B7280;
 }
 
@@ -32,7 +33,7 @@ hr {
 .link-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
-    color:white;
+    color: white;
 }
 
 .link-secondary {
@@ -68,7 +69,7 @@ hr {
 }
 
 .navigation .nav-pills {
-    text-align: right;    
+    text-align: right;
 }
 
 .navigation .link {
@@ -83,7 +84,7 @@ hr {
 /** header **/
 
 .hero {
-    padding:2rem;
+    padding: 2rem;
 }
 
 .hero .hero-img {
@@ -100,3 +101,18 @@ hr {
 .hero .hero-heading .heading-inverted {
     color: var(--primary-color);
 }
+
+/** sections **/
+
+.section {
+    padding: 2rem;
+}
+
+.section h1 {
+    text-align: center;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
